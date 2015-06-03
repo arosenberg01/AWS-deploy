@@ -9,9 +9,7 @@ var app = express();
 // }).listen(process.env.PORT || 8888);
 
 app.get('/', function(req, res) {
-  res.statusCode(200);
-  res.write('Express app');
-  res.end();
+  res.send('<!DOCTYPE html><body><h1>Shit</h1></body></html>')
 
 })
 
